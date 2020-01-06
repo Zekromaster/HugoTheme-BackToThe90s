@@ -1,6 +1,6 @@
 <center>
   {{ range .Site.Params.infoBar }}
-    <center>  {{ . }} </center>
+    <center>  {{ . | safeHTML }} </center>
     <br />
   {{ end }}
 </center>
