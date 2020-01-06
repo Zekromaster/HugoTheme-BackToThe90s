@@ -1,0 +1,18 @@
+h1, h2 {
+  text-align: center;
+}
+
+.white_back {
+  background-color: #ffffff
+}
+
+table {
+    border-style: inset;
+    border-width: 5px;
+    background-color: #f00
+}
+
+td, th {
+    border-style: inset;
+    border-width: 3px;
+}

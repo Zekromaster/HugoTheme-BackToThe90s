@@ -1,0 +1,14 @@
+= Back to the 90s
+
+A Hugo theme, voluntarily badly designed. There's even Comic Sans, for those who
+have it installed.
+
+Config keys:
+[options="header"]
+|==========================
+| key | type | description
+| params.infoBar | List of strings | The contents will each be a paragraph on the right sidebar
+| params.blogIntro | String | This is what will be shown under the "Welcome to my Blog" gif
+| params.titleGif | String | This is the location of the gif (or any image, really) that shows up as the header
+| params.subtitle | String | A subtitle. This appears under the header.
+|==========================

@@ -1,0 +1,5 @@
+{{ range .Site.Menus.main }}
+  <p> <b><a id={{ .Identifier }} href={{ .URL | absURL }}> {{ .Name }} </a></b> </p>
+{{ end }}
+<br /><br />
+<img src={{ "/pictures/gif1.gif" | absURL }} />

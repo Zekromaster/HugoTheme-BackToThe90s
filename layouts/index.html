@@ -1,0 +1,13 @@
+{{ define "main" }}
+<center>
+  <a href={{ "/blog" | absURL }}>
+    <img src={{ "/pictures/welcome.gif" | absURL }} />
+  </a>
+  <br /><br />
+  <div style="width: 50%">
+    <center>
+      <marquee> <h3>  {{ .Site.Params.blogIntro }} </h3> </marquee>
+    </center>
+  </div>
+</center>
+{{ end }}
